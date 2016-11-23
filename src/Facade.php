@@ -2,9 +2,9 @@
 
 namespace Bluora\LaravelNumberConverter;
 
-use Illuminate\Support\Facades\Facade;
+use Illuminate\Support\Facades\Facade as BaseFacade;
 
-class NumberConverterFacade extends Facade
+class Facade extends BaseFacade
 {
     /**
      * Get the registered name of the component.
@@ -13,6 +13,6 @@ class NumberConverterFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'NumberConverter';
+        return 'NumConvert';
     }
 }

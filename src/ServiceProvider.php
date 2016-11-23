@@ -3,9 +3,9 @@
 namespace Bluora\LaravelNumberConverter;
 
 use Bluora\PhpNumberConverter\NumberConverter;
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
-class NumberConverterServiceProvider extends ServiceProvider
+class ServiceProvider extends BaseServiceProvider
 {
     /**
      * Indicates if loading of the provider is deferred.
@@ -21,7 +21,7 @@ class NumberConverterServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('NumberConverter', function () {
+        $this->app->bind('NumConvert', function () {
             return new NumberConverter();
         });
     }
@@ -33,6 +33,6 @@ class NumberConverterServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return [];
+        return ['NumConvert'];
     }
 }
