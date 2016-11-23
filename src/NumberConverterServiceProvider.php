@@ -2,8 +2,8 @@
 
 namespace Bluora\LaravelNumberConverter;
 
-use Illuminate\Support\ServiceProvider;
 use Bluora\PhpNumberConverter;
+use Illuminate\Support\ServiceProvider;
 
 class NumberConverterServiceProvider extends ServiceProvider
 {
