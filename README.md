@@ -6,7 +6,7 @@ This package has been developed by H&H|Digital, an Australian botique developer.
 
 [![Build Status](https://travis-ci.org/bluora/laravel-number-converter.svg?branch=master)](https://travis-ci.org/bluora/laravel-number-converter) [![StyleCI](https://styleci.io/repos/74523556/shield?branch=master)](https://styleci.io/repos/74523556) [![Test Coverage](https://codeclimate.com/github/bluora/laravel-number-converter/badges/coverage.svg)](https://codeclimate.com/github/bluora/laravel-number-converter/coverage) [![Issue Count](https://codeclimate.com/github/bluora/laravel-number-converter/badges/issue_count.svg)](https://codeclimate.com/github/bluora/laravel-number-converter) [![Code Climate](https://codeclimate.com/github/bluora/laravel-number-converter/badges/gpa.svg)](https://codeclimate.com/github/bluora/laravel-number-converter)
 
-This package provides the ability to convert a numerical number to a word, roman numeral and an ordinal suffix.
+This package provides a Laravel wrapper to the [PHP-Number-Converter](https://github.com/bluora/php-number-converter) package that provides the ability to convert a numerical number to a word, roman numeral and an ordinal suffix.
 
 ## Install
 
