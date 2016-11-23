@@ -1,0 +1,22 @@
+{
+    "name": "bluora/laravel-number-converter",
+    "description": "Number to word, roman, ordinal converter",
+    "keywords": ["laravel","number","converter","roman","ordinal","word"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rocco Howard",
+            "email": "rocco@bluora.com.au"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "illuminate/support": "5.*",
+        "bluora/php-number-converter": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bluora\\LaravelNumberConverter\\": "src/"
+        }
+    }
+}
