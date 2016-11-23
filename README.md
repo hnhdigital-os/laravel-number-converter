@@ -63,7 +63,6 @@ Please see [CONTRIBUTING](https://github.com/bluora/laravel-number-converter/blo
 
 ## Credits
 
-* Forked from [saintkabyo/number-converter](https://github.com/saintkabyo/number-converter)
 * [Rocco Howard](https://github.com/therocis)
 * [All Contributors](https://github.com/bluora/laravel-number-converter/contributors)
 
