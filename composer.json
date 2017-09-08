@@ -1,5 +1,5 @@
 {
-    "name": "bluora/laravel-number-converter",
+    "name": "hnhdigital-os/laravel-number-converter",
     "description": "Number to word, roman, ordinal converter",
     "keywords": ["laravel","number","converter","roman","ordinal","word"],
     "license": "MIT",
