@@ -12,7 +12,7 @@ This package has been developed by H&H|Digital, an Australian botique developer.
 
 Via composer:
 
-`$ composer require bluora/laravel-number-converter dev-master`
+`$ composer require hnhdigital-os/laravel-number-converter dev-master`
 
 Enable the service provider by editing config/app.php:
 
