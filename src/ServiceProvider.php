@@ -21,7 +21,7 @@ class ServiceProvider extends BaseServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('NumConvert', function() {
+        $this->app->singleton('NumConvert', function () {
             return new NumberConverter();
         });
     }

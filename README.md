@@ -8,6 +8,11 @@ This package provides a Laravel wrapper to the [PHP-Number-Converter](https://gi
 
 This package has been developed by H&H|Digital, an Australian botique developer. Visit us at [hnh.digital](http://hnh.digital).
 
+## Requirements
+
+* PHP >= 7.1.3
+* Laravel >= 5.6
+
 ## Install
 
 Via composer:
@@ -17,32 +22,23 @@ Via composer:
 Enable an alias by editing config/app.php:
 
 ```php
-'aliases' => array(
+'aliases' => [
     ...
-    'NumConvert' => 'HnhDigital\LaravelNumberConverter\NumberConverterFacade',
+    'NumConvert' => 'HnhDigital\LaravelNumberConverter\Facade',
     ...
-)
+]
 ```
-
-This package autoloads.
-
-Enable the service provider (pre Laravel 5.5) by editing config/app.php:
-
-```php
-'providers' => array(
-    ...
-    'LaravelNumberConverter\NumberConverterServiceProvider',
-    ...
-)
-```
-
 
 ### Convert to word
 
 Supported number range -2147483647 to 2147483647.
 
 ```php
-echo NumConvert::word(122);
+echo NumConvert::word(1);
+```
+
+```
+one
 ```
 
 ### Convert to roman
@@ -50,7 +46,11 @@ echo NumConvert::word(122);
 Supported number range 1 to 3999.
 
 ```php
-echo NumConvert::roman(122);
+echo NumConvert::roman(1);
+```
+
+```
+I
 ```
 
 ### Ordinal suffix
@@ -59,6 +59,10 @@ Supported number range 1 to 2147483647.
 
 ```php
 echo NumConvert::ordinal(122);
+```
+
+```
+1st
 ```
 
 ## Contributing

@@ -1,11 +1,11 @@
 {
   "providers": [
-    "Bluora\\LaravelNumberConverter\\ServiceProvider"
+    "HnhDigital\\LaravelNumberConverter\\ServiceProvider"
   ],
   "aliases": [
     {
       "alias": "NumConvert",
-      "facade": "Bluora\\LaravelNumberConverter\\Facade"
+      "facade": "HnhDigital\\LaravelNumberConverter\\Facade"
     }
   ]
 }

@@ -1,42 +1,45 @@
-# Contributing
+# How to contribute
 
-## Coding Style
+We welcome everyone to submit pull requests with:
 
-This package follows the [PSR-2](http://www.php-fig.org/psr/2/) coding standard and the [PSR-4](http://www.php-fig.org/psr/4/) autoloading standard.
+* fixes for issues
+* change suggestions
+* updating of documentation
 
-## PHPDoc
+Please NOTE:
 
-```php
-/**
- * Some function.
- *
- * @param  string|array         $first_paramater
- * @param  \Closure|string|null $second_paramater
- * @param  bool                 $third_paramater
- *
- * @return void
- */
-public function myFunction($first_paramater, $second_paramater = null, $third_paramater = false)
-{
-    //
-}
-```
+Not every pull request will automatically be accepted. I will review each carefully to make sure it is in line with the direction I want the package to continue in. This might mean that some pull requests are not accepted, or might stay unmerged until a place for them can be determined.
 
-## StyleCI
+## Coding standards
 
-Don't worry if your code styling isn't perfect! [StyleCI](https://styleci.io) will automatically merge any style fixes into the Laravel repository after pull requests are merged. This allows us to focus on the content of the contribution and not the code style.
+You MUST use the following coding standards:
 
-## Testing
+* [PSR-1](http://www.php-fig.org/psr/1/)
+* [PSR-2](http://www.php-fig.org/psr/2/)
+* [PSR-4](http://www.php-fig.org/psr/4/)
 
-* MUST run the test suite.
-* MUST write (or update) unit tests.
-* SHOULD write documentation.
+We use StyleCI to ensure these coding standards are consistently achieved.
 
-## Commits
+## Documentation
 
-Please, write [commit messages that make sense](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html),
-and [rebase your branch](http://git-scm.com/book/en/Git-Branching-Rebasing) before submitting your Pull Request.
+You SHOULD update any relevant documentation.
 
-You may be asked to [squash your commits](http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html)
-too. This is used to "clean" your Pull Request before merging it (we don't want commits such as `fix tests`, `fix 2`,
-`fix 3`, etc).
+## Making changes
+
+You MUST do the following:
+
+* Run `composer test` and ensure everything passes.
+
+We use Code Climate to help us achieve correct code quality.
+
+## Pull requests
+
+You SHOULD do the following when preparing your request:
+
+* Rebase your branch before submitting pull request
+* Add a descriptive header that explains in a single sentence what problem the PR solves.
+* Add a detailed description with animated screen-grab GIFs visualizing how it works.
+* Explain why you think it should be implemented one way vs. another, highlight performance improvements, etc.
+
+Thanks!
+Rocco Howard, H&H|Digital
