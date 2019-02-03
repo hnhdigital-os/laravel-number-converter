@@ -1,6 +1,6 @@
 <?php
 
-namespace Bluora\LaravelNumberConverter;
+namespace HnhDigital\LaravelNumberConverter;
 
 use Bluora\PhpNumberConverter\NumberConverter;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
@@ -21,7 +21,7 @@ class ServiceProvider extends BaseServiceProvider
      */
     public function register()
     {
-        $this->app->bind('NumConvert', function () {
+        $this->app->singleton('NumConvert', function() {
             return new NumberConverter();
         });
     }

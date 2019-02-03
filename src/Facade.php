@@ -1,6 +1,6 @@
 <?php
 
-namespace Bluora\LaravelNumberConverter;
+namespace HnhDigital\LaravelNumberConverter;
 
 use Illuminate\Support\Facades\Facade as BaseFacade;
 

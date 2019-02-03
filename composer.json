@@ -16,7 +16,17 @@
     },
     "autoload": {
         "psr-4": {
-            "Bluora\\LaravelNumberConverter\\": "src/"
+            "HnhDigital\\LaravelNumberConverter\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HnhDigital\\LaravelNumberConverter\\ServiceProvider"
+            ]
         }
     }
 }
