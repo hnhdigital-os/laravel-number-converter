@@ -1,12 +1,11 @@
 <?php
 
-use Bluora\PhpNumberConverter\NumberConverter;
 
-if (! function_exists('number_to_word')) {
+if (!function_exists('number_to_word')) {
     /**
      * Convert number to English word.
      *
-     * @param integer $number
+     * @param int $number
      *
      * @return string
      */
@@ -16,11 +15,11 @@ if (! function_exists('number_to_word')) {
     }
 }
 
-if (! function_exists('number_to_roman')) {
+if (!function_exists('number_to_roman')) {
     /**
      * Convert number to roman numerals.
      *
-     * @param integer $number
+     * @param int $number
      *
      * @return string
      */
@@ -30,11 +29,11 @@ if (! function_exists('number_to_roman')) {
     }
 }
 
-if (! function_exists('number_to_ordinal')) {
+if (!function_exists('number_to_ordinal')) {
     /**
      * Convert number to ordinal.
      *
-     * @param integer $number
+     * @param int $number
      *
      * @return string
      */
