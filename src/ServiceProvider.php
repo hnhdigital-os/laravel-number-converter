@@ -35,4 +35,18 @@ class ServiceProvider extends BaseServiceProvider
     {
         return ['NumConvert'];
     }
+
+    /**
+     * Boot and add helpers if enabled.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+        if (!config('hnhdigital.number-converter.helpers', false)) {
+            return;
+        }
+
+        include_once('helpers.php');
+    }
 }

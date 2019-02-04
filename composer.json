@@ -21,10 +21,7 @@
     "autoload": {
         "psr-4": {
             "HnhDigital\\LaravelNumberConverter\\": "src/"
-        },
-        "files": [
-            "src/helpers.php"
-        ]
+        }
     },
     "extra": {
         "laravel": {
