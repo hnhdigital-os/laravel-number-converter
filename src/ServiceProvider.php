@@ -47,6 +47,6 @@ class ServiceProvider extends BaseServiceProvider
             return;
         }
 
-        include_once 'helpers.php';
+        include_once('helpers.php');
     }
 }

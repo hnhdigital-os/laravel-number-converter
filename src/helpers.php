@@ -1,7 +1,8 @@
 <?php
 
+use Bluora\PhpNumberConverter\NumberConverter;
 
-if (!function_exists('number_to_word')) {
+if (! function_exists('number_to_word')) {
     /**
      * Convert number to English word.
      *
@@ -15,7 +16,7 @@ if (!function_exists('number_to_word')) {
     }
 }
 
-if (!function_exists('number_to_roman')) {
+if (! function_exists('number_to_roman')) {
     /**
      * Convert number to roman numerals.
      *
@@ -29,16 +30,30 @@ if (!function_exists('number_to_roman')) {
     }
 }
 
-if (!function_exists('number_to_ordinal')) {
+if (! function_exists('number_with_ordinal_suffix')) {
     /**
-     * Convert number to ordinal.
+     * Convert number to number + ordinal suffix.
      *
      * @param int $number
      *
      * @return string
      */
-    function number_to_ordinal($number)
+    function number_with_ordinal_suffix($number)
     {
-        return app('NumConvert')->ordinal($number);
+        return app('NumConvert')->numberOrdinal($number);
+    }
+}
+
+if (! function_exists('number_to_word_ordinal')) {
+    /**
+     * Convert number to worded ordinal.
+     *
+     * @param int $number
+     *
+     * @return string
+     */
+    function number_to_word_ordinal($number)
+    {
+        return app('NumConvert')->wordOrdinal($number);
     }
 }
