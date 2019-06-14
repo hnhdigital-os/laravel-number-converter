@@ -2,7 +2,7 @@
 
 namespace HnhDigital\LaravelNumberConverter;
 
-use Bluora\PhpNumberConverter\NumberConverter;
+use HnhDigital\PhpNumberConverter\NumberConverter;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
 class ServiceProvider extends BaseServiceProvider
