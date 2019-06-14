@@ -1,6 +1,6 @@
 <?php
 
-use Bluora\PhpNumberConverter\NumberConverter;
+use HnhDigital\PhpNumberConverter\NumberConverter;
 
 if (! function_exists('number_to_word')) {
     /**
