@@ -10,8 +10,8 @@ This package has been developed by H&H|Digital, an Australian botique developer.
 
 ## Requirements
 
-* PHP >= 7.1.3
-* Laravel >= 5.6
+* PHP ^7.2
+* Laravel ^5.8|^6.0
 
 ## Install
 
