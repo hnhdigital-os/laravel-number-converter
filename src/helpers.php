@@ -1,8 +1,6 @@
 <?php
 
-use HnhDigital\PhpNumberConverter\NumberConverter;
-
-if (! function_exists('number_to_word')) {
+if (!function_exists('number_to_word')) {
     /**
      * Convert number to English word.
      *
@@ -16,7 +14,7 @@ if (! function_exists('number_to_word')) {
     }
 }
 
-if (! function_exists('number_to_roman')) {
+if (!function_exists('number_to_roman')) {
     /**
      * Convert number to roman numerals.
      *
@@ -30,7 +28,7 @@ if (! function_exists('number_to_roman')) {
     }
 }
 
-if (! function_exists('number_with_ordinal_suffix')) {
+if (!function_exists('number_with_ordinal_suffix')) {
     /**
      * Convert number to number + ordinal suffix.
      *
@@ -44,7 +42,7 @@ if (! function_exists('number_with_ordinal_suffix')) {
     }
 }
 
-if (! function_exists('number_to_word_ordinal')) {
+if (!function_exists('number_to_word_ordinal')) {
     /**
      * Convert number to worded ordinal.
      *
